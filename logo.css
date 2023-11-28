@@ -1,0 +1,151 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    background-image: url('/images/background.jpg');
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+    background-size:cover;
+
+}
+h1{
+    color: white;
+    font-size: 18px;
+
+}
+.logo img{
+    width: 80px;
+}
+.logo {
+    margin: 15px;
+}
+.text a{
+    text-decoration: none;
+}
+.text{
+    position:relative;
+    left: 80px;
+    bottom: 90px;
+    margin: 20px;
+}
+.menu a{
+text-decoration: none;
+color: white ;
+font-weight: bold;
+padding: 10px;
+font-size: 10px;
+}
+.menu a:hover{
+    border-bottom: 1px dotted red;
+}
+.menu{
+    position: relative;
+    left: 50%;
+    bottom: 180px;
+}
+.section1{
+    margin: 40px 0px 0px 100px;
+    
+
+}
+.section1 a{
+    text-decoration:none ;
+    color:black;
+    padding: 20px 20px 5px 8px;
+    font-size: 15px;
+    position: relative;
+    left: 120px;
+
+}
+.bishop{
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+hr{
+    width: 80%;
+}
+.img{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    float: left;
+    left: 20%;
+    
+}
+.details1{
+    position: absolute;
+    float: left;
+    left: 50.5%;
+    width: 210px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px 10px 5px 10px;
+    background-color: #e9e7e9;
+
+}
+h2{
+    text-align: right;
+    font-size: 16px;
+}
+.hr2{
+    width: 100%;
+    
+}
+.details2{
+    position: absolute;
+    float: center;
+    left: 38%;
+    height: 1620px; 
+    width: 400px;
+    top: 1680px;
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 10px 10px 10px;
+    background-color: #e9e7e9;
+}
+
+    h3{
+        text-align: left;
+    }
+    .details3{
+    position: absolute; 
+    float: center;
+    left: 38%;
+    width: 400px;
+    top: 3310px;
+    background-color: black;
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 10px 10px 10px;
+    }
+    .footer{
+        position: absolute;
+        top: 4200px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-decoration: none;
+    }
+    .icons {
+        position: absolute;
+        left:40% ;
+
+    }
